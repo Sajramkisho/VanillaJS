@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form-validator</title>
+    <link rel="stylesheet" href="/Form-validator/styles.css" />
+    <script defer src="/Form-validator/script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-container">
+        <div class="heading">
+          <h2>Register Here</h2>
+        </div>
+        <div>
+          <form id="form">
+            <div class="form-elements">
+              <label for="username">UserName</label>
+              <input
+                class="input-class"
+                type="text"
+                id="Username"
+                placeholder="Enter Username"
+              />
+              <small>error</small>
+            </div>
+            <div class="form-elements">
+              <label for="email">Email</label>
+              <input
+                class="input-class"
+                type="text"
+                id="Email"
+                placeholder="Enter mail"
+              />
+              <small>error</small>
+            </div>
+            <div class="form-elements">
+              <label for="password">Password</label>
+              <input
+                class="input-class"
+                type="password"
+                id="Password"
+                placeholder="Enter password"
+              />
+              <small>error</small>
+            </div>
+
+            <div class="form-elements">
+              <label for="current-password">Current Password</label>
+              <input
+                class="input-class"
+                type="password"
+                id="Current-password"
+                placeholder="Enter password again"
+              />
+              <small class="last-small">error</small>
+            </div>
+            <div class="form-elements">
+              <button type="submit" class="btn">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

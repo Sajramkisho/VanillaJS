@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: rgba(0, 128, 0, 0.884);
+  font-family: "Press Start 2P", cursive;
+}
+
+h1 {
+  text-align: center;
+  padding: 1.4rem;
+  font-size: 50px;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+  margin-left: 30px;
+  margin-right: 20%;
+}
+.coin {
+  margin-right: 20%;
+}
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100vw;
+  height: 50vh;
+}
+
+button {
+  padding: 1rem;
+  font-size: 1.3rem;
+  border-radius: 14px;
+  width: 90px;
+  cursor: pointer;
+  background-color: hsl(0, 0%, 95%);
+  border: 1.5px solid black;
+  color: white;
+  outline: none;
+}
+button:hover {
+  background-color: black;
+  color: yellow;
+}
+
+.reset:hover {
+  background-color: hsl(0, 100%, 50%);
+  color: white;
+}
+.tails {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.score {
+  margin-left: 20%;
+  font-size: 50px;
+}
+
+.message {
+  text-align: center;
+  font-size: 2.4rem;
+}
+
+/* media queries */
+@media (max-width: 1264px) and (min-width: 900px) {
+  .btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .coin {
+    margin-right: 80px;
+  }
+  button {
+    margin-bottom: 20px;
+  }
+  .score {
+    margin-left: 10%;
+  }
+  .message {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 899px) and (min-width: 650px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  img {
+    height: 200px;
+    width: 200px;
+  }
+  button {
+    margin-bottom: 30px;
+  }
+  .score {
+    margin-left: 40px;
+  }
+  .message {
+    margin-top: 30px;
+  }
+
+  .coin {
+    margin-right: 10px;
+  }
+}
+@media (max-width: 649px) and (min-width: 300px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+  }
+
+  img {
+    width: 100px;
+    height: 100px;
+    margin: 0;
+  }
+  .coin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
+  .btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  button {
+    margin-bottom: 10px;
+  }
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  .score {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0;
+    margin-top: 40px;
+  }
+
+  .heads {
+    margin-top: 30px;
+  }
+
+  .message {
+    margin-top: 30px;
+    font-size: 1.5rem;
+  }
+}

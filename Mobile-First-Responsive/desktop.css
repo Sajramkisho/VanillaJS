@@ -1,0 +1,186 @@
+@media (min-width: 1512px) {
+  .header-container {
+    margin: 0;
+    display: flex;
+    list-style-type: none;
+  }
+  .Home {
+    margin-left: auto;
+  }
+  .Portfolio {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .Contact {
+    margin-right: 40px;
+  }
+
+  .Name {
+    margin-left: 100px;
+  }
+
+  .header-container li {
+    font-family: "Oswald", sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  .header-container .Name {
+    margin-left: 100px;
+    margin-right: auto;
+    font-weight: bolder;
+    font-size: 1.7rem;
+  }
+  .header-elements {
+    color: #555;
+  }
+  .header-elements:hover {
+    color: black;
+    cursor: pointer;
+  }
+
+  .avatar-container {
+    display: flex;
+  }
+
+  .avatar-para {
+    font-family: "Bonheur Royale", cursive;
+    font-family: "Carattere", cursive;
+    font-family: "Dancing Script", cursive;
+    font-family: "Oswald", sans-serif;
+    margin-left: 40px;
+    margin-right: 5rem;
+
+    font-size: 1.4rem;
+    word-spacing: 5px;
+
+    letter-spacing: 2.5px;
+    font-weight: normal;
+    color: hsl(0, 0%, 50%);
+  }
+
+  .avatar-image {
+    height: 300px;
+    max-width: 500px;
+    margin-right: 40px;
+  }
+  .portfolio-section {
+    margin-top: 100px;
+  }
+  .portfolio-class {
+    background-color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+    box-shadow: 0 0 2rem #555;
+    border-radius: 0.6rem;
+  }
+  .portfolio-class img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 300px;
+    width: 300px;
+  }
+
+  .portfolio-class h2 {
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    font-family: "Abel", sans-serif;
+    font-family: "Bonheur Royale", cursive;
+    font-family: "Carattere", cursive;
+    font-family: "Dancing Script", cursive;
+    font-family: "Oswald", sans-serif;
+  }
+
+  .portfolio-container {
+    width: 300px;
+    background-color: hsl(0, 0%, 90%);
+    border-radius: 10px;
+    font-family: "Abel", sans-serif;
+    font-family: "Bonheur Royale", cursive;
+    font-family: "Carattere", cursive;
+    font-family: "Dancing Script", cursive;
+    font-family: "Oswald", sans-serif;
+  }
+
+  .portfolio-container h3 {
+    font-weight: bold;
+    text-align: center;
+  }
+  .portfolio-container p {
+    margin: 10px;
+    font-weight: lighter;
+  }
+  .container-div {
+    display: grid;
+    margin-left: 100px;
+    grid-template-columns: 400px 400px 400px;
+    justify-content: space-evenly;
+    row-gap: 50px;
+    column-gap: 50px;
+  }
+
+  .contact-section {
+    margin-top: 100px;
+    flex-direction: column;
+    text-align: center;
+  }
+  .contact-section p {
+    font-size: 1.4rem;
+    font-family: "Bonheur Royale", cursive;
+    font-family: "Carattere", cursive;
+    font-family: "Dancing Script", cursive;
+    font-family: "Oswald", sans-serif;
+    color: hsl(0, 0%, 50%);
+    word-spacing: 3px;
+    letter-spacing: 2.5px;
+  }
+  .contact-section .contact-heading {
+    font-size: 1.5rem;
+    font-family: "Abel", sans-serif;
+    font-family: "Bonheur Royale", cursive;
+    font-family: "Carattere", cursive;
+    font-family: "Dancing Script", cursive;
+    font-family: "Oswald", sans-serif;
+  }
+
+  .contact-section .contact-details {
+    font-size: 1.2rem;
+    color: #444;
+    font-family: "Open", sans-serif;
+  }
+
+  .footer-container {
+    margin: 0;
+    display: flex;
+
+    list-style-type: none;
+  }
+
+  .footer-container li {
+    font-family: "Oswald", sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  .footer-container .home-class {
+    margin-left: auto;
+  }
+
+  .footer-elements {
+    color: #555;
+  }
+
+  .footer-elements:hover {
+    color: black;
+    cursor: pointer;
+  }
+
+  .anchor-class {
+    text-decoration: none;
+  }
+}

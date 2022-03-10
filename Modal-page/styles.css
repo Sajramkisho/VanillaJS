@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0; /*    scrollbar only for modal and not for body */
+  background-color: #aaa;
+}
+.modal {
+  height: 80vh;
+  max-width: 600px;
+  width: 80vw;
+
+  background-color: white;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+
+.title {
+  padding: 0.8rem 0.8rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.close-btn {
+  margin-right: 0.5rem;
+  padding: 0.5rem 0.6rem;
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.content {
+  flex-grow: 1;
+  overflow: auto;
+  padding: 1rem;
+  font-size: 1.3rem;
+  font-family: "EB Garamond", serif;
+}
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.6rem;
+  border-top: 1px solid black;
+}
+
+.btn {
+  border: 1px solid black;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 0.2rem;
+  color: black;
+}
+.btn-ok {
+  margin: 0.4rem;
+  padding: 0.5em;
+}
+.btn-cancel {
+  margin: 0.4rem;
+  padding: 0.5em;
+
+  /* background-color: hsl(0, 98%, 49%); */
+}
+.btn-ok:hover {
+  background-color: hsl(100, 90%, 40%);
+  color: white;
+}
+.btn-ok:focus {
+  background-color: hsl(100, 90%, 30%);
+  color: white;
+}
+.btn-cancel:hover {
+  background-color: hsl(0, 98%, 50%);
+  color: white;
+}
+.btn-cancel:focus {
+  background-color: hsl(0, 98%, 40%);
+  color: white;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accordion Card</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="icon" href="/images/favicon-32x32.png" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="container">
+        <div class="image-container">
+          <img src="/images/illustration-woman-online-desktop.svg" alt="" />
+        </div>
+        <div class="content-container grid">
+          <div class="content">
+            <h2>FAQ</h2>
+
+            <div class="faq" onclick="handleClick1()">
+              <p>How many team members can I invite?</p>
+              <p id="tag1">
+                You can invite up to 2 additional users on the Free plan. There
+                is no limit on team members for the Premium plan.
+              </p>
+            </div>
+            <hr />
+            <div class="faq" onclick="handleClick2()">
+              <p>What is the maximum file upload size?</p>
+              <p id="tag2">
+                No more than 2GB.
+                <span
+                  >All files in your account must fit your allotted storage
+                  space.</span
+                >
+              </p>
+            </div>
+            <hr />
+
+            <div class="faq" onclick="handleClick3()">
+              <p>How do I reset my password?</p>
+              <p id="tag3">
+                Click “Forgot password” from the login page or “Change password”
+                from your profile page.
+              </p>
+            </div>
+            <hr class="hr-unwanted" />
+            <div class="faq unwanted" onclick="handleClick4()">
+              <p>Can I cancel my subscription?</p>
+              <p id="tag4">
+                Yes! Send us a message and we’ll process your request.
+              </p>
+            </div>
+            <hr class="hr" />
+            <div class="faq unwanted" onclick="handleClick5()">
+              <p>Do you provide additional support?</p>
+              <p id="tag5">
+                Chat and email support is available 24/7. Phone lines are open
+                during normal business hours.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>

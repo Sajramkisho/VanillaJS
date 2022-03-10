@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Carattere&family=Dancing+Script&family=Oswald&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Bonheur+Royale&family=Carattere&family=Dancing+Script&family=Oswald&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Bonheur+Royale&family=Carattere&family=Dancing+Script&family=Oswald&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: hsl(0, 0%, 90%);
+}

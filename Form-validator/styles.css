@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+.form-container {
+  box-shadow: 0 0 2rem #ccc;
+  border-radius: 0.5rem;
+  max-width: 400px;
+  width: 50%;
+}
+.heading {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: white;
+  font-family: "Dancing Script", cursive;
+}
+.form-elements {
+  display: flex;
+  flex-direction: column;
+  margin: 0.8rem 0.8rem;
+}
+.form-elements,
+input {
+  color: white;
+  padding: 0.4em;
+  border-radius: 0.4rem;
+  font-size: 0.9rem;
+  border: none;
+  background: none;
+  outline: none;
+}
+.form-elements,
+input:focus {
+  border-color: white;
+}
+.input-class {
+  border: 1px solid grey;
+}
+
+.form-elements,
+label {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-size: 1.2rem;
+  margin-bottom: 0.3rem;
+}
+
+.form-elements small {
+  visibility: hidden;
+  color: red;
+  font-size: 0.9rem;
+  font-weight: lighter;
+}
+
+.form-elements.error small {
+  visibility: visible;
+}
+.last-small {
+  margin-bottom: 1.2rem;
+}
+
+.btn {
+  font-family: "Open Sans", sans-serif;
+  border-radius: 0.4rem;
+  padding: 0.5rem 0.4rem;
+  font-weight: normal;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+
+  border: 1px solid white;
+  color: white;
+  background: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  border: 1px solid greenyellow;
+}
+
+.btn:focus {
+  border: 1px solid green;
+  background-color: green;
+}
+
+.form-elements.success input {
+  border: 1px solid greenyellow;
+}
+
+.form-elements.error input {
+  border: 1px solid red;
+}
